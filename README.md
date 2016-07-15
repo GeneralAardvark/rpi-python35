@@ -7,3 +7,10 @@ A first attempt at a *small* raspbian container with latest python built in.
 The reason being, I can't seem to clean up enough to get a nice small container size if I build and release in the same container.
 
 My work is lending heavily from [Tatsushid](https://hub.docker.com/u/tatsushid/) on [docker hub](http://hub.docker.com) and by heavily I mean a complete rip :)
+
+## Build
+As usual:
+docker build -t rpi-python3.5 .
+
+## Run
+docker run -it generalaardvark/rpi-python3.5
